@@ -24,7 +24,7 @@ Analysis using Python
    - The average fare per driver for each city type
 
 
-- Code Example:
+- **Code Example:**
      
       #  1. Get the total rides for each city type
       total_rides_count = pyber_data_df.groupby(["type"]).count()["ride_id"]
