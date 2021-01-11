@@ -25,6 +25,21 @@ Analysis using Python
 
 
 - Code Example:
+     
+      #  1. Get the total rides for each city type
+      total_rides_count = pyber_data_df.groupby(["type"]).count()["ride_id"]
+      
+      # 2. Get the total drivers for each city type
+      total_driver_count = city_data_df.groupby(["type"]).sum()["driver_count"]
+      
+      #  3. Get the total amount of fares for each city type
+      total_fares = pyber_data_df.groupby(["type"]).sum()["fare"] 
+      
+      #  4. Get the average fare per ride for each city type. 
+      average_fare_perRide = pyber_data_df.groupby(["type"]).mean()["fare"]
+ 
+      # 5. Get the average fare per driver for each city type. 
+      average_fare_perDriver = total_fares/total_driver_count
    
       # 6. Create a PyBer summary DataFrame. 
         pyber_summary_df = pd.DataFrame(
