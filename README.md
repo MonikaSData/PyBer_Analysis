@@ -28,6 +28,8 @@ Analysis using Python
 
 
 **Summary DataFrame by City Type**
+
+
 ![Summary_DataFrame_by_City_Type](Analysis/Summary_DataFrame_by_City_Type.jpg)
 
 
