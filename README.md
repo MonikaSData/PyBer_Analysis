@@ -16,6 +16,14 @@ Analysis using Python
 - Software: Python 3.7.9 64-bit (conda); jupyter-notebook : 6.1.4
 
 ## Results
+**The following summary data has been created:**
+-The total number of rides for each city type 
+-The total number of drivers for each city type
+-The sum of the fares for each city type
+-The average fare per ride for each city type
+-The average fare per driver for each city type
+
+
 - Code Example:
    
       # 6. Create a PyBer summary DataFrame. 
