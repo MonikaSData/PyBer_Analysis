@@ -16,12 +16,12 @@ Analysis using Python
 - Software: Python 3.7.9 64-bit (conda); jupyter-notebook : 6.1.4
 
 ## Results
-**The following summary data has been created:**
--The total number of rides for each city type 
--The total number of drivers for each city type
--The sum of the fares for each city type
--The average fare per ride for each city type
--The average fare per driver for each city type
+- **The following summary data has been created:**
+   - The total number of rides for each city type 
+   - The total number of drivers for each city type
+   - The sum of the fares for each city type
+   - The average fare per ride for each city type
+   - The average fare per driver for each city type
 
 
 - Code Example:
@@ -35,17 +35,17 @@ Analysis using Python
              "Average Fare per Driver":average_fare_perDriver})
 
 
-**Summary DataFrame by City Type**
+- **Summary DataFrame by City Type**
 
 
 ![Summary_DataFrame_by_City_Type](Analysis/Summary_DataFrame_by_City_Type.jpg)
 
 
-
- - Rural cities bring the lowest revenue which could be caused by the high fare rates per rides (on average the fare rate per ride is higher by ~ $10.1 compared to urban cities)
- - Rural cities have the lowest number of riders and bring the lowest revenue
- - The average fare rate per driver in rural cities is 3.4x higher than in urban cities ($55.49 compared to $16.57)
- - Urban cities have significantly higher number of drivers which translates to better coverage
+- **Findings**:
+   - Rural cities bring the lowest revenue which could be caused by the high fare rates per rides (on average the fare rate per ride is higher by ~ $10.1 compared to urban cities)
+   - Rural cities have the lowest number of riders and bring the lowest revenue
+   - The average fare rate per driver in rural cities is 3.4x higher than in urban cities ($55.49 compared to $16.57)
+   - Urban cities have significantly higher number of drivers which translates to better coverage
  
  
 
