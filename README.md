@@ -50,6 +50,6 @@ Analysis using Python
  **Recommendations:**
  1. Increase the number of drivers in rural and suburban cities
  2. Review fare rates in rural and suburban cities
- 3. Start tracking the average distance per ride to understand better needs of riders in each city type
+ 3. Start tracking the average distance per ride to understand better the needs of riders in each city type
 
   
